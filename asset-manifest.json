@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/Amaze-Tour-React/static/css/main.4cb69276.css",
+    "main.js": "/Amaze-Tour-React/static/js/main.ee576660.js",
+    "static/js/787.e403dcb9.chunk.js": "/Amaze-Tour-React/static/js/787.e403dcb9.chunk.js",
+    "static/media/3.jpg": "/Amaze-Tour-React/static/media/3.7236180d085969ad6d0f.jpg",
+    "static/media/2.jpg": "/Amaze-Tour-React/static/media/2.31246c81faad34a77338.jpg",
+    "static/media/short.jpg": "/Amaze-Tour-React/static/media/short.fe3adcceba60c6784f7a.jpg",
+    "static/media/1.jpg": "/Amaze-Tour-React/static/media/1.69eea29975a657f4c5ed.jpg",
+    "static/media/like.jpg": "/Amaze-Tour-React/static/media/like.3dd4a728ec23a5c0314f.jpg",
+    "static/media/BOOSTING.jpg": "/Amaze-Tour-React/static/media/BOOSTING.c7cfddb740b8883256a0.jpg",
+    "static/media/BOHOL2.jpg": "/Amaze-Tour-React/static/media/BOHOL2.228441cb16c6932d38d0.jpg",
+    "static/media/EL NIDO.jpg": "/Amaze-Tour-React/static/media/EL NIDO.5e09a4d5171274390699.jpg",
+    "static/media/CEBu.jpg": "/Amaze-Tour-React/static/media/CEBu.be8af1c315d3fd0e6484.jpg",
+    "static/media/CORON.jpg": "/Amaze-Tour-React/static/media/CORON.30d6d1c7e2108925f2c1.jpg",
+    "static/media/PUERTO.jpg": "/Amaze-Tour-React/static/media/PUERTO.6d713d8dac0a84659685.jpg",
+    "static/media/bgc.jpg": "/Amaze-Tour-React/static/media/bgc.6da6214a78a78f9a1535.jpg",
+    "static/media/logo.png": "/Amaze-Tour-React/static/media/logo.46fa55e829e060cd1c42.png",
+    "index.html": "/Amaze-Tour-React/index.html",
+    "main.4cb69276.css.map": "/Amaze-Tour-React/static/css/main.4cb69276.css.map",
+    "main.ee576660.js.map": "/Amaze-Tour-React/static/js/main.ee576660.js.map",
+    "787.e403dcb9.chunk.js.map": "/Amaze-Tour-React/static/js/787.e403dcb9.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4cb69276.css",
+    "static/js/main.ee576660.js"
+  ]
+}
