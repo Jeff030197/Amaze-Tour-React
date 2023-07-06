@@ -11,13 +11,13 @@ const Loading = () => {
   return (
 
     <MDBRow>
-        <Row>
-          <Col/>
-          <Col className='d-flex justify-content-center' ><Button variant="primary" onClick={handleShow} className="papel">
+        
+        
+          <Col className='yes' ><Button variant="primary" onClick={handleShow} className="papel">
           Promo of the day
         </Button></Col>
-        <Col/> 
-        </Row>
+       
+        
         <Offcanvas show={show} onHide={handleClose}>
           <Offcanvas.Header closeButton>
             <Offcanvas.Title>Like Promo</Offcanvas.Title>
