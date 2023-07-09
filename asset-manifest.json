@@ -1,0 +1,35 @@
+{
+  "files": {
+    "main.css": "/Amaze-Tour-React/static/css/main.ddc0975d.css",
+    "main.js": "/Amaze-Tour-React/static/js/main.d171dc7d.js",
+    "static/js/787.e403dcb9.chunk.js": "/Amaze-Tour-React/static/js/787.e403dcb9.chunk.js",
+    "static/media/3.jpg": "/Amaze-Tour-React/static/media/3.7236180d085969ad6d0f.jpg",
+    "static/media/2.jpg": "/Amaze-Tour-React/static/media/2.31246c81faad34a77338.jpg",
+    "static/media/1.jpg": "/Amaze-Tour-React/static/media/1.69eea29975a657f4c5ed.jpg",
+    "static/media/like.jpg": "/Amaze-Tour-React/static/media/like.3dd4a728ec23a5c0314f.jpg",
+    "static/media/BOOSTING.jpg": "/Amaze-Tour-React/static/media/BOOSTING.c7cfddb740b8883256a0.jpg",
+    "static/media/BOHOL2.jpg": "/Amaze-Tour-React/static/media/BOHOL2.228441cb16c6932d38d0.jpg",
+    "static/media/EL NIDO.jpg": "/Amaze-Tour-React/static/media/EL NIDO.5e09a4d5171274390699.jpg",
+    "static/media/CEBu.jpg": "/Amaze-Tour-React/static/media/CEBu.be8af1c315d3fd0e6484.jpg",
+    "static/media/CORON.jpg": "/Amaze-Tour-React/static/media/CORON.30d6d1c7e2108925f2c1.jpg",
+    "static/media/PUERTO.jpg": "/Amaze-Tour-React/static/media/PUERTO.6d713d8dac0a84659685.jpg",
+    "static/media/fa-solid-900.ttf": "/Amaze-Tour-React/static/media/fa-solid-900.4a2cd718d7031b732e76.ttf",
+    "static/media/bgc.jpg": "/Amaze-Tour-React/static/media/bgc.6da6214a78a78f9a1535.jpg",
+    "static/media/fa-brands-400.ttf": "/Amaze-Tour-React/static/media/fa-brands-400.150de8eaa454d669c405.ttf",
+    "static/media/fa-solid-900.woff2": "/Amaze-Tour-React/static/media/fa-solid-900.bb975c966c37455a1bc3.woff2",
+    "static/media/fa-brands-400.woff2": "/Amaze-Tour-React/static/media/fa-brands-400.e033a13ee751afc1860c.woff2",
+    "static/media/logo.png": "/Amaze-Tour-React/static/media/logo.46fa55e829e060cd1c42.png",
+    "static/media/fa-regular-400.ttf": "/Amaze-Tour-React/static/media/fa-regular-400.d87474231f4192884802.ttf",
+    "static/media/fa-regular-400.woff2": "/Amaze-Tour-React/static/media/fa-regular-400.3223dc79c1adee56370b.woff2",
+    "static/media/fa-v4compatibility.ttf": "/Amaze-Tour-React/static/media/fa-v4compatibility.0e3a648be390bd8cb094.ttf",
+    "static/media/fa-v4compatibility.woff2": "/Amaze-Tour-React/static/media/fa-v4compatibility.68577e40f3e70067b5da.woff2",
+    "index.html": "/Amaze-Tour-React/index.html",
+    "main.ddc0975d.css.map": "/Amaze-Tour-React/static/css/main.ddc0975d.css.map",
+    "main.d171dc7d.js.map": "/Amaze-Tour-React/static/js/main.d171dc7d.js.map",
+    "787.e403dcb9.chunk.js.map": "/Amaze-Tour-React/static/js/787.e403dcb9.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ddc0975d.css",
+    "static/js/main.d171dc7d.js"
+  ]
+}
