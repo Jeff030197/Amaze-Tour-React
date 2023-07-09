@@ -1,6 +1,6 @@
-import {Carousel, Container,} from 'react-bootstrap';
+import {Carousel,} from 'react-bootstrap';
 import Car1 from "./../img/1.jpg";
-import Car2 from "./../img/2.jpg";
+
 import Car3 from "./../img/3.jpg";
 const Content = () => {
     return ( 
@@ -19,7 +19,9 @@ const Content = () => {
             alt="Third slide"
           />
         </Carousel.Item>
+        
       </Carousel>
+      
       
 
 

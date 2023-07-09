@@ -1,3 +1,6 @@
+* {
+  font-family: 'Playfair Display SC', serif;
+}
 .App {
   text-align: center;
 }
@@ -40,4 +43,33 @@
   to {
     transform: rotate(360deg);
   }
+}
+.navi{
+  background-color: #d81159;
+ 
+}
+.btn{
+  background-color:#ffbc42 ;
+  border: none;
+  box-shadow: none;
+  font-family: inherit;
+  color: black;
+ 
+  
+  
+  
+}
+MDBNavbarLink {
+  font-family: inherit;
+}
+.frm
+{
+  background-color: #61dafb;
+
+}
+.dsgn
+{
+  font-family: inherit;
+  font-weight: bolder;
+  color: black;
 }

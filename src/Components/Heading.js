@@ -1,27 +1,62 @@
-import {Container, Nav, Navbar, Image, Row, Col, Button,} from 'react-bootstrap';
-import Larawan from "./../img/logo.png";
-const Heading = () => {
-    return ( 
-        <div>
-          <Navbar fixed="top" bg="primary" data-bs-theme="dark">
-            <Container>
-         <Row className="B">
-            <Col xs={6} md={4}>
-           
-            <Image src={Larawan} fluid />
-            </Col>
-          </Row>
-          <Nav className="me-auto">
-            <Nav.Link href="#App.js"><Button variant="secondary">Home</Button>{' '}</Nav.Link>
-            <Nav.Link href="#features"> <Button variant="secondary">Features</Button>{' '}</Nav.Link>
-            <Nav.Link href="#pricing"> <Button variant="secondary">Pricing</Button>{' '}</Nav.Link>
-          </Nav>
-        </Container>
-      </Navbar>
-         
+import React, { useState } from 'react';
+import {
+  MDBNavbar,
+  MDBContainer,
+  MDBNavbarBrand,
+  MDBNavbarToggler,
+  MDBNavbarItem,
+  MDBNavbarLink,
+  MDBCollapse,
+  MDBBtn,
+  MDBNavbarNav,
+  MDBIcon,
+  MDBInputGroup
+} from 'mdb-react-ui-kit';
+import logo from './../img/logo.png';
 
-        </div>
-     );
+export default function App() {
+  const [showNavNoTogglerThird, setShowNavNoTogglerThird] = useState(false);
+
+  return (
+    <>
+      <MDBNavbar sticky expand='lg'  dark bgColor='dark'>
+        <MDBContainer fluid>
+          <MDBNavbarToggler
+            type='button'
+            data-target='#navbarTogglerDemo03'
+            aria-controls='navbarTogglerDemo03'
+            aria-expanded='false'
+            aria-label='Toggle navigation'
+            onClick={() => setShowNavNoTogglerThird(!showNavNoTogglerThird)}
+          >
+            <MDBIcon icon='bars' fas />
+          </MDBNavbarToggler>
+          <MDBNavbarBrand href='#'><img
+              src={logo}
+              height='75'
+              alt=''
+              loading='lazy'
+            /></MDBNavbarBrand>
+          <MDBCollapse calssName = "align-items-center"navbar show={showNavNoTogglerThird}>
+            <MDBNavbarNav className='mr-auto mb-2 mb-lg-0'>
+              <MDBNavbarItem>
+                <MDBNavbarLink active aria-current='page' href='#'>
+                  Home
+                </MDBNavbarLink>
+              </MDBNavbarItem>
+              <MDBNavbarItem>
+                <MDBNavbarLink href='#'>Pricing</MDBNavbarLink>
+              </MDBNavbarItem>
+              <MDBNavbarItem>
+                <MDBNavbarLink href='#'>FAQ</MDBNavbarLink>
+              </MDBNavbarItem>            
+            </MDBNavbarNav>
+            <MDBInputGroup tag="form" className='d-flex w-auto mb-3'>
+              <MDBBtn href="#">Login</MDBBtn>
+            </MDBInputGroup>
+          </MDBCollapse>
+        </MDBContainer>
+      </MDBNavbar>
+    </>
+  );
 }
- 
-export default Heading;
