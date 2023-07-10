@@ -9,7 +9,7 @@ import {
   MDBCol
 } from 'mdb-react-ui-kit';
 
-export default function App() {
+const Adjustments= () => {
   const [verticalActive, setVerticalActive] = useState('tab1');
 
   const handleVerticalClick = (value: string) => {
@@ -54,4 +54,5 @@ export default function App() {
       </MDBRow>
     </>
   );
-}
+};
+export default Adjustments;
