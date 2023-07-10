@@ -21,12 +21,11 @@ export default function App() {
     <>
       <MDBNavbar sticky expand='lg'  dark bgColor='dark'>
         <MDBContainer fluid>
-          <MDBNavbarToggler
+          <MDBNavbarToggler className='bt'
             type='button'
             data-target='#navbarTogglerDemo03'
             aria-controls='navbarTogglerDemo03'
             aria-expanded='false'
-            aria-label='Toggle navigation'
             onClick={() => setShowNavNoTogglerThird(!showNavNoTogglerThird)}
           >
             <MDBIcon icon='bars' fas />
@@ -51,8 +50,8 @@ export default function App() {
                 <MDBNavbarLink href='#'>FAQ</MDBNavbarLink>
               </MDBNavbarItem>            
             </MDBNavbarNav>
-            <MDBInputGroup tag="form" className='d-flex w-auto mb-3'>
-              <MDBBtn href="#">Login</MDBBtn>
+            <MDBInputGroup className='d-flex w-auto mb-3'>
+              <MDBBtn href="https://mdbootstrap.com/docs/react/components/buttons/">Login</MDBBtn>
             </MDBInputGroup>
           </MDBCollapse>
         </MDBContainer>

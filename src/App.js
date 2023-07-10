@@ -9,6 +9,8 @@ import background from "./img/bgc.jpg";
 import Footer from './Components/Footer';
 
 
+
+
 function App() {
 
   return (
@@ -27,6 +29,8 @@ function App() {
       <Cards2></Cards2>
       <br></br>
       <Footer></Footer>
+      
+
 
 
 

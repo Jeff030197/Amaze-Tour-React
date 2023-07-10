@@ -16,7 +16,7 @@ export default function SearchBar() {
     >
       <form className='d-flex input-group w-auto frm'>
             <input type='search' className='form-control ' placeholder='Search Destination' aria-label='Search' /> <Button variant="contained" size="small">
-          Search
+          Searches
         </Button>
         </form>
     </Box>

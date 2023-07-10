@@ -48,17 +48,7 @@
   background-color: #d81159;
  
 }
-.btn{
-  background-color:#ffbc42 ;
-  border: none;
-  box-shadow: none;
-  font-family: inherit;
-  color: black;
- 
-  
-  
-  
-}
+
 MDBNavbarLink {
   font-family: inherit;
 }
@@ -73,3 +63,14 @@ MDBNavbarLink {
   font-weight: bolder;
   color: black;
 }
+.car{
+  display: block;
+  width: 100;
+  height: auto;
+  max-height: 700px;
+
+}
+
+
+/* ///reg css */
+
